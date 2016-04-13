@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="framework-test"
+        version="1.0.0">
+
+    <name>FrameworkTest</name>
+
+    <engines>
+        <engine name="cordova" version=">=6.0.0"/>
+    </engines>
+
+    <platform name="ios">
+        <framework src="MyFramework.framework" custom="true" link="true" />
+    </platform>
+</plugin>

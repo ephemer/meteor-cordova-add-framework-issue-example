@@ -1,0 +1,1 @@
+This is a cordova plugin, not a meteor package
